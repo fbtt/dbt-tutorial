@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: concat
+    description: "Concat name and lastname"
+    columns:
+      - name: name
+        description: "Patient's name"
+      - name: lastname
+        description: "Patient's lastname"
+      - name: full_name
+        description: "Patient's full name"
+
+  - name: nome
+    columns:
+      - name: name
+        description: "Patient's name"
+        data_tests:
+          - not_null
